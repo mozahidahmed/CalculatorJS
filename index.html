@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>CalculatorJS</title>
+</head>
+<body>
+    <div class="calc-container">
+        <div class="calc-body">
+            <input type="text" id="MyResult">
+           <div class="key-pad" id="keypad">
+            <button class="btn"  onclick="DeleteAll()">C</button>
+            <button class="btn" onclick="DeleteOne()">AC</button>
+            <button class="btn"  onclick="calculator('%')">%</button>
+            <button class="btn color" onclick="calculator('/')">/</button>
+            <button class="btn" onclick="calculator('7')">7</button>
+            <button class="btn" onclick="calculator('8')">8</button>
+            <button class="btn" onclick="calculator('9')">9</button>
+            <button class="btn color" onclick="calculator('*')">*</button>
+            <button class="btn" onclick="calculator('4')">4</button>
+            <button class="btn" onclick="calculator('5')">5</button>
+            <button class="btn" onclick="calculator('6')">6</button>
+            <button class="btn color" onclick="calculator('-')">-</button>
+            <button class="btn" onclick="calculator('1')">1</button>
+            <button class="btn" onclick="calculator('2')">2</button>
+            <button class="btn"onclick="calculator('3')">3</button>
+            <button class="btn color"onclick="calculator('+')">+</button>
+            <button class="btn-zero"onclick="calculator('0')">0</button>
+            <button class="btn"onclick="calculator('.')">.</button>
+            <button class="btn color"onclick="Answer()">=</button>
+           </div>
+
+
+
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
